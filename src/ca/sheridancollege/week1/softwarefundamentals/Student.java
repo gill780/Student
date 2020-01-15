@@ -13,6 +13,7 @@ public class Student {
     
     private String name;
 private double GPA;
+private double e;
     /**
      * Get the value of name
      *
