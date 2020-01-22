@@ -13,6 +13,8 @@ public class Student {
     
     private String name;
 private double GPA;
+private String status;
+
     /**
      * Get the value of name
      *
@@ -43,6 +45,20 @@ private double GPA;
      */
     public void setGPA(double GPA) {
         this.GPA = GPA;
+    }
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
